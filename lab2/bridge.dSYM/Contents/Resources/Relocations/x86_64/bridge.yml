@@ -1,0 +1,12 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/turtushig/Documents/2024-Namar/Algo/lab2/bridge'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cross_from_A_to_B, symObjAddr: 0x0, symBinAddr: 0x100003B80, symSize: 0x60 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _flag_A, symBinAddr: 0x100008040, symSize: 0x0 }
+  - { offsetInCU: 0x74, offset: 0x74, size: 0x8, addend: 0x0, symName: _flag_B, symBinAddr: 0x100008044, symSize: 0x0 }
+  - { offsetInCU: 0x89, offset: 0x89, size: 0x8, addend: 0x0, symName: _bridge_mutex, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xDD, offset: 0xDD, size: 0x8, addend: 0x0, symName: _cross_from_A_to_B, symObjAddr: 0x0, symBinAddr: 0x100003B80, symSize: 0x60 }
+  - { offsetInCU: 0x105, offset: 0x105, size: 0x8, addend: 0x0, symName: _cross_from_B_to_A, symObjAddr: 0x60, symBinAddr: 0x100003BE0, symSize: 0x60 }
+  - { offsetInCU: 0x12D, offset: 0x12D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC0, symBinAddr: 0x100003C40, symSize: 0x145 }
+...
